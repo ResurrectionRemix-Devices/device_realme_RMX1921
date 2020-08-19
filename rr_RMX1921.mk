@@ -4,13 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Evolution-X stuff
-TARGET_GAPPS_ARCH := arm64
+# Inherit some common Ressurection stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BOOT_ANIMATION_RES_EVO := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Inherit from RMX1921 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
