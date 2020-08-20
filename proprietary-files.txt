@@ -1199,12 +1199,14 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
+# Telephony (qti-telephony-common) - from DRG - QKQ1.190828.002
+product/framework/qti-telephony-common.jar|b4d187700f279cdbd40e74b4c3be4504f10d8b29
+
 # RIL - Pinned blobs are from Nokia/Phoenix_00WW/PNX_sprout:10/QKQ1.190828.002/00WW_4_30B:user/release-keys
 -product/app/QtiTelephonyService/QtiTelephonyService.apk|165109022921de31007f8ebc7304de08ecde6bb4
 product/etc/permissions/qcrilhook.xml
 product/etc/permissions/telephonyservice.xml
 product/framework/qcrilhook.jar|3afd31d5a08e220904441d5c8c0bcf43b8ebbbfe
-product/framework/qti-telephony-common.jar|fabeba9162fd802a1ba048ddbb5b3b2d23545183
 product/framework/QtiTelephonyServicelibrary.jar
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|c59fcb4a375dec19a0208dcfcc4696e0ccfd3a13
 -vendor/app/IWlanService/IWlanService.apk
